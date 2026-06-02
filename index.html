@@ -3,73 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mantasha Noyela | Portfolio</title>
+    <title>Mantasha Noyela | Academic Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#work">Previous Work</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <h2 class="logo">Mantasha Noyela</h2>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
 
-    <section id="about">
-        <h1>Mantasha Noyela</h1>
-        <p>
-            Graduate student with a background in Computer Science and a strong interest in
-            Machine Learning, Data Science, and Geospatial Analytics.
-        </p>
-    </section>
-
-    <section id="work">
-        <h2>Previous Work & Skills</h2>
-
-        <h3>Skills</h3>
-        <ul>
-            <li>Python</li>
-            <li>Machine Learning</li>
-            <li>JavaScript</li>
-            <li>HTML & CSS</li>
-            <li>Git & GitHub</li>
-        </ul>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-
-        <div>
-            <h3>Rat Model Optimization</h3>
+        <section class="hero">
+            <h1>Academic Portfolio</h1>
             <p>
-                Applied Particle Swarm Optimization (PSO) techniques to improve
-                model performance and efficiency.
+                Graduate student in Computer Science with research interests in
+                machine learning, data science, and geospatial analytics.
             </p>
-        </div>
+            <a href="#projects" class="button">View My Work</a>
+        </section>
+    </header>
 
-        <div>
-            <h3>Wildfire Monitoring Research</h3>
+    <main>
+        <section id="about">
+            <h2>About</h2>
             <p>
-                Research involving machine learning and wildfire monitoring
-                using uncrewed aircraft systems.
+                I am Mantasha Noyela, a graduate student with a background in Computer Science.
+                My academic interests include machine learning, computational modeling,
+                geospatial analytics, and data-driven research. I am interested in applying
+                programming and analytical methods to real-world research problems.
             </p>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
+        <section id="work">
+            <h2>Previous Work & Skills</h2>
+            <p>
+                My previous academic work has helped me build experience in programming,
+                machine learning, web development, and research-based problem solving.
+            </p>
 
-        <form id="contactForm">
-            <input type="text" placeholder="Name" required>
-            <input type="email" placeholder="Email" required>
-            <textarea placeholder="Message"></textarea>
-            <button type="submit">Send</button>
-        </form>
-    </section>
+            <div class="skills-grid">
+                <div>HTML</div>
+                <div>CSS</div>
+                <div>JavaScript</div>
+                <div>Python</div>
+                <div>Machine Learning</div>
+                <div>Git & GitHub</div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="project-grid">
+                <article class="project-card">
+                    <h3>Rat Model Optimization</h3>
+                    <p>
+                        Applied Particle Swarm Optimization techniques to improve
+                        the speed and performance of a computational rat model.
+                    </p>
+                    <a href="#" target="_blank">GitHub Repository</a>
+                </article>
+
+                <article class="project-card">
+                    <h3>Wildfire Monitoring Research</h3>
+                    <p>
+                        Research project related to wildfire monitoring using computer vision,
+                        olfactory sensing, and uncrewed aircraft systems.
+                    </p>
+                    <a href="#" target="_blank">Project Link</a>
+                </article>
+
+                <article class="project-card">
+                    <h3>Web Development Portfolio</h3>
+                    <p>
+                        A responsive personal website built with HTML, CSS, and JavaScript
+                        to present academic background and selected projects.
+                    </p>
+                    <a href="#" target="_blank">GitHub Repository</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+
+            <form id="contactForm">
+                <label for="name">Name</label>
+                <input id="name" type="text" required>
+
+                <label for="email">Email</label>
+                <input id="email" type="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" required></textarea>
+
+                <button type="submit">Submit</button>
+                <p id="formMessage"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mantasha Noyela. All rights reserved.</p>
+    </footer>
 
     <script src="app.js"></script>
-
 </body>
 </html>
