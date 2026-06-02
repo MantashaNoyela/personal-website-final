@@ -189,3 +189,41 @@ footer {
     margin-top: 1rem;
     font-weight: bold;
 }
+
+.dark-mode {
+    background-color: #121212;
+    color: #f5f5f5;
+}
+
+.dark-mode main {
+    background-color: #121212;
+}
+
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode p,
+.dark-mode li,
+.dark-mode label {
+    color: #f5f5f5;
+}
+
+.dark-mode .project-card,
+.dark-mode .skills-grid div,
+.dark-mode form {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-mode .project-card a {
+    color: #7fb3ff;
+}
+
+#darkModeBtn {
+    background-color: white;
+    color: #1f2933;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
