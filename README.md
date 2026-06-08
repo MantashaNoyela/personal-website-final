@@ -62,13 +62,23 @@ Includes academic and professional experience such as:
 
 Highlights technical skills and areas of expertise, including:
 
-* Python
-* JavaScript
-* HTML/CSS
+* C, C++, C#, Python, Java
 * Machine Learning
+* Deep Learning
+* Optimization Algorithms
+* Computer Vision
+* Data Structures & Algorithms
+* Memory & Performance Optimization
 * Data Science
-* Geospatial Analytics
-* Research and Optimization
+* Data Pipelines
+* CSV/XML Processing
+* Data Validation
+* Statistical Computing
+* MySQL
+* MuJoCo
+* YOLOv4
+* HTML & CSS
+* JavaScript
 
 ### Research Interests
 
